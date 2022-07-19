@@ -1,0 +1,139 @@
+
+.fonts3{
+    font-family: 'Montserrat';
+
+}
+.footer{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    
+}
+.pointer {
+    cursor: pointer;
+}
+.listEquipped{
+    overflow: scroll;
+}
+.inicioDivT{
+    padding-top: 5%;
+    padding-bottom: 2%;
+    background-color: #0056a7;
+    /* background-image: url("/assets/images/bannerMyaInicio.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 3%; */
+
+}
+.logoInic{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: auto;
+}
+.logoContacto{
+    width: 80%;
+    margin-left: 0%;
+    margin-right: auto;
+}
+.nosotrosT{
+     margin-top: -3%;
+}
+.bannerConsultingJofer{
+    background-image: url("/assets/images/bannerCosulting.jpg");
+}
+
+.bannerSpace{
+    height: 16rem;
+    background-image: url("/assets/images/bannerSpace.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 3%;
+    margin-top: 5%;
+}
+/* .theBest{
+    margin-top: 11% !important;
+} */
+#contacto{
+    background-color: #1c69a5 ;
+    height: 50rem;
+    
+
+}
+.privacidadBanner{
+    height: 36rem;
+    background-image: url("/assets/images/bannerTerrazaInicio.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.tablePrivacidad{
+    margin-bottom: 15%;
+}
+.divCatchUp{
+    padding-top: 3%;
+    margin-top: -3%;
+}
+.componentsDiv{
+    margin-top: -5%;
+}
+
+
+@media (min-width: 992px) {
+    .rounded-tr-lg-0 {
+        border-top-right-radius: 0;
+    }
+
+    .rounded-bl-lg-5 {
+        border-bottom-left-radius: 0.5rem;
+    }
+    
+}
+
+@media(min-width:992px){
+    
+}
+@media(max-width:991px){
+    .serviciosT{
+        margin-top: -17%;
+    }
+    .componentsDiv{
+        margin-top: -31%;
+    }
+    .divCatchUp{
+        display: none;
+    }
+    .footer{
+        padding-top: 10%;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    #contacto{
+        height: 65rem;
+    }
+    .responsiveMarginCard{
+        margin-top: 5%;
+    }
+    .inicioDivT{
+        height: 30rem;
+    
+    }
+    #gym{
+        margin-top: -36%;
+    }
+    .theBest{
+        margin-top: 83% !important;
+    }
+    .contactForm{
+        margin-top: -20% !important;
+    }
+    .logoContacto{
+        margin-top:-107% ;
+    }
+    .titleContact{
+        margin-top: -15% !important;
+        margin-bottom: 15%;
+    }
+   
+}
