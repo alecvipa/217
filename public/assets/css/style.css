@@ -56,7 +56,7 @@
 } */
 #contacto{
     background-color: #1c69a5 ;
-    height: 50rem;
+    
     
 
 }
@@ -110,21 +110,19 @@
         padding-right: 3%;
     }
     #contacto{
-        height: 65rem;
+        padding-top: 10%;
     }
     .responsiveMarginCard{
         margin-top: 5%;
     }
     .inicioDivT{
-        height: 30rem;
+        height: 4rem;
     
     }
     #gym{
         margin-top: -36%;
     }
-    .theBest{
-        margin-top: 83% !important;
-    }
+  
     .contactForm{
         margin-top: -20% !important;
     }
