@@ -17,7 +17,8 @@
     <script src="https://kit.fontawesome.com/28f081bff3.js" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/a077a0470e.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-    {{!-- <link rel="shortcut icon" href="assets/images/myaLogoFav.png"> --}}
+    {{!--
+    <link rel="shortcut icon" href="assets/images/myaLogoFav.png"> --}}
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
@@ -36,7 +37,7 @@
         href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" />
 
     <script>
-        
+
         function submitEmailForm(form) {
             var obj = new XMLHttpRequest();
             obj.onreadystatechange = function () {
@@ -58,6 +59,26 @@
             return false;
         }
     </script>
+    <!-- Meta Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1353060625184305');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=1353060625184305&ev=PageView&noscript=1" /></noscript>
+    <!-- End Meta Pixel Code -->
+    <meta name="facebook-domain-verification" content="f8dy92cao7gw8hh4ts6rp1vzyyav7f" />
 </head>
 
 <body class="fonts3" data-spy="scroll" data-target="#lashistaItemLandingPage" data-offset="0">
@@ -82,7 +103,7 @@
             </div>
         </div>
     </div>
-    
+
 
     <script src="/assets/js/script.js"></script>
     <!-- MDB -->
